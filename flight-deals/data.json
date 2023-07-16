@@ -1,0 +1,894 @@
+{
+  "locations": [
+    {
+      "id": "JFK",
+      "int_id": 8353,
+      "airport_int_id": 8353,
+      "active": true,
+      "code": "JFK",
+      "icao": "KJFK",
+      "name": "John F. Kennedy International",
+      "slug": "john-f-kennedy-international-new-york-city-new-york-united-states",
+      "slug_en": "john-f-kennedy-international-new-york-city-new-york-united-states",
+      "alternative_names": [
+        "New York - J.F. Kennedy Airport",
+        "New York - J.F. Kennedy"
+      ],
+      "rank": 0,
+      "global_rank_dst": 7,
+      "dst_popularity_score": 4844620,
+      "timezone": "America/New_York",
+      "city": {
+        "id": "new-york-city_ny_us",
+        "name": "New York",
+        "code": "NYC",
+        "slug": "new-york-city-new-york-united-states",
+        "autonomous_territory": null,
+        "country": {
+          "id": "US",
+          "name": "United States",
+          "slug": "united-states",
+          "code": "US"
+        },
+        "nearby_country": null,
+        "continent": {
+          "id": "north-america",
+          "name": "North America",
+          "slug": "north-america",
+          "code": "NA"
+        },
+        "subdivision": {
+          "id": "NY_US",
+          "name": "New York",
+          "slug": "new-york-united-states",
+          "code": "NY"
+        },
+        "region": {
+          "id": "northern-america",
+          "name": "Northern America",
+          "slug": "northern-america"
+        }
+      },
+      "location": {
+        "lat": 40.639722,
+        "lon": -73.778889
+      },
+      "alternative_departure_points": [
+        {
+          "id": "TTN",
+          "distance": 123.06,
+          "duration": 6878.1
+        },
+        {
+          "id": "SWF",
+          "distance": 130.8,
+          "duration": 6806.6
+        },
+        {
+          "id": "ABE",
+          "distance": 170.08,
+          "duration": 8744.5
+        },
+        {
+          "id": "PHL",
+          "distance": 190.08,
+          "duration": 9685.3
+        },
+        {
+          "id": "LGA",
+          "distance": 21.3,
+          "duration": 1614.2
+        },
+        {
+          "id": "BDL",
+          "distance": 214.23,
+          "duration": 11198.9
+        },
+        {
+          "id": "ACY",
+          "distance": 220.59,
+          "duration": 11585.5
+        },
+        {
+          "id": "AVP",
+          "distance": 235.87,
+          "duration": 11390.3
+        },
+        {
+          "id": "US-NEWY-ALLE",
+          "distance": 25.95,
+          "duration": 2256.3
+        },
+        {
+          "id": "US-NEWY-NEW0",
+          "distance": 30.97,
+          "duration": 2117
+        },
+        {
+          "id": "US-NEWY-WEST",
+          "distance": 31.83,
+          "duration": 2191.8
+        },
+        {
+          "id": "US-NEWR-NYST",
+          "distance": 38.57,
+          "duration": 2541.4
+        },
+        {
+          "id": "US-NEWY-NEWY",
+          "distance": 41.23,
+          "duration": 2521.8
+        },
+        {
+          "id": "EWR",
+          "distance": 54.97,
+          "duration": 3683.2
+        },
+        {
+          "id": "HPN",
+          "distance": 66,
+          "duration": 3966.5
+        },
+        {
+          "id": "ISP",
+          "distance": 74.43,
+          "duration": 3852.8
+        }
+      ],
+      "tags": [
+        {
+          "tag": "sightseeing",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "famous cities",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "activities",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "events",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "family fun",
+          "month_to": -1,
+          "month_from": -1
+        }
+      ],
+      "providers": [
+        1175,
+        1277,
+        1282,
+        1283
+      ],
+      "special": [
+        {
+          "id": "manhattan-island_poi",
+          "name": "Manhattan Island",
+          "slug": "manhattan-island"
+        },
+        {
+          "id": "independence-national-historical-park-pa-usa_poi",
+          "name": "Independence National Historical Park, PA, USA",
+          "slug": "independence-national-historical-park"
+        },
+        {
+          "id": "times-square_poi",
+          "name": "Times Square",
+          "slug": "times-square"
+        },
+        {
+          "id": "metropolitan-museum-of-art_poi",
+          "name": "Metropolitan Museum of Art",
+          "slug": "metropolitan-museum-of-art"
+        },
+        {
+          "id": "staten-island_poi",
+          "name": "Staten Island",
+          "slug": "staten-island"
+        },
+        {
+          "id": "empire-state-building_poi",
+          "name": "Empire State Building",
+          "slug": "empire-state-building"
+        },
+        {
+          "id": "statue-of-liberty_poi",
+          "name": "Statue of Liberty",
+          "slug": "statue-of-liberty"
+        }
+      ],
+      "tourist_region": [
+        {
+          "id": "outskirts-nyc_poi",
+          "name": "Outskirts-NYC",
+          "slug": "outskirts-nyc"
+        }
+      ],
+      "car_rentals": [
+        {
+          "provider_id": 1175,
+          "providers_locations": [
+            "696173",
+            "356246",
+            "711868",
+            "757353",
+            "4421877"
+          ]
+        }
+      ],
+      "new_ground": false,
+      "routing_priority": 0,
+      "type": "airport"
+    },
+    {
+      "id": "EWR",
+      "int_id": 7387,
+      "airport_int_id": 7387,
+      "active": true,
+      "code": "EWR",
+      "icao": "KEWR",
+      "name": "Newark Liberty International",
+      "slug": "newark-liberty-international-new-york-city-new-york-united-states",
+      "slug_en": "newark-liberty-international-new-york-city-new-york-united-states",
+      "alternative_names": [
+        "Newark International",
+        "New York Newark Liberty Intl"
+      ],
+      "rank": 5,
+      "global_rank_dst": 13,
+      "dst_popularity_score": 3153962,
+      "timezone": "America/New_York",
+      "city": {
+        "id": "new-york-city_ny_us",
+        "name": "New York",
+        "code": "NYC",
+        "slug": "new-york-city-new-york-united-states",
+        "autonomous_territory": null,
+        "country": {
+          "id": "US",
+          "name": "United States",
+          "slug": "united-states",
+          "code": "US"
+        },
+        "nearby_country": null,
+        "continent": {
+          "id": "north-america",
+          "name": "North America",
+          "slug": "north-america",
+          "code": "NA"
+        },
+        "subdivision": {
+          "id": "NY_US",
+          "name": "New York",
+          "slug": "new-york-united-states",
+          "code": "NY"
+        },
+        "region": {
+          "id": "northern-america",
+          "name": "Northern America",
+          "slug": "northern-america"
+        }
+      },
+      "location": {
+        "lat": 40.6925,
+        "lon": -74.168611
+      },
+      "alternative_departure_points": [
+        {
+          "id": "SWF",
+          "distance": 114.88,
+          "duration": 5964.1
+        },
+        {
+          "id": "ISP",
+          "distance": 115.76,
+          "duration": 5966
+        },
+        {
+          "id": "ABE",
+          "distance": 121.76,
+          "duration": 6406
+        },
+        {
+          "id": "PHL",
+          "distance": 151.69,
+          "duration": 7568.5
+        },
+        {
+          "id": "ACY",
+          "distance": 184.77,
+          "duration": 9512.2
+        },
+        {
+          "id": "AVP",
+          "distance": 196.11,
+          "duration": 9551.4
+        },
+        {
+          "id": "US-NEWY-ALLE",
+          "distance": 19.99,
+          "duration": 1665.9
+        },
+        {
+          "id": "LNS",
+          "distance": 229.79,
+          "duration": 11050.2
+        },
+        {
+          "id": "BDL",
+          "distance": 230.1,
+          "duration": 11748.1
+        },
+        {
+          "id": "US-NEWY-NEW0",
+          "distance": 23.1,
+          "duration": 1596.3
+        },
+        {
+          "id": "US-NEWY-WEST",
+          "distance": 23.36,
+          "duration": 1611.9
+        },
+        {
+          "id": "US-NEWY-NEWY",
+          "distance": 32.72,
+          "duration": 1967.4
+        },
+        {
+          "id": "LGA",
+          "distance": 37.95,
+          "duration": 2466.4
+        },
+        {
+          "id": "US-NEWB-NJST",
+          "distance": 43.61,
+          "duration": 2598.6
+        },
+        {
+          "id": "JFK",
+          "distance": 51.33,
+          "duration": 3529.2
+        },
+        {
+          "id": "HPN",
+          "distance": 78.59,
+          "duration": 4130.3
+        },
+        {
+          "id": "ZRP",
+          "distance": 8.39,
+          "duration": 964.2
+        },
+        {
+          "id": "TTN",
+          "distance": 86.67,
+          "duration": 4811.1
+        }
+      ],
+      "tags": [
+        {
+          "tag": "sightseeing",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "famous cities",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "activities",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "events",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "family fun",
+          "month_to": -1,
+          "month_from": -1
+        }
+      ],
+      "providers": [
+        1162,
+        1175,
+        1277,
+        1282
+      ],
+      "special": [
+        {
+          "id": "empire-state-building_poi",
+          "name": "Empire State Building",
+          "slug": "empire-state-building"
+        },
+        {
+          "id": "independence-national-historical-park-pa-usa_poi",
+          "name": "Independence National Historical Park, PA, USA",
+          "slug": "independence-national-historical-park"
+        },
+        {
+          "id": "manhattan-island_poi",
+          "name": "Manhattan Island",
+          "slug": "manhattan-island"
+        },
+        {
+          "id": "metropolitan-museum-of-art_poi",
+          "name": "Metropolitan Museum of Art",
+          "slug": "metropolitan-museum-of-art"
+        },
+        {
+          "id": "times-square_poi",
+          "name": "Times Square",
+          "slug": "times-square"
+        },
+        {
+          "id": "staten-island_poi",
+          "name": "Staten Island",
+          "slug": "staten-island"
+        },
+        {
+          "id": "statue-of-liberty_poi",
+          "name": "Statue of Liberty",
+          "slug": "statue-of-liberty"
+        }
+      ],
+      "tourist_region": [
+        {
+          "id": "outskirts-nyc_poi",
+          "name": "Outskirts-NYC",
+          "slug": "outskirts-nyc"
+        }
+      ],
+      "car_rentals": [
+        {
+          "provider_id": 1175,
+          "providers_locations": [
+            "1501461",
+            "507518"
+          ]
+        }
+      ],
+      "new_ground": false,
+      "routing_priority": 0,
+      "type": "airport"
+    },
+    {
+      "id": "LGA",
+      "int_id": 8942,
+      "airport_int_id": 8942,
+      "active": true,
+      "code": "LGA",
+      "icao": "KLGA",
+      "name": "LaGuardia",
+      "slug": "laguardia-new-york-city-new-york-united-states",
+      "slug_en": "laguardia-new-york-city-new-york-united-states",
+      "alternative_names": [
+        "New York Laguardia"
+      ],
+      "rank": 13,
+      "global_rank_dst": 38,
+      "dst_popularity_score": 1543187,
+      "timezone": "America/New_York",
+      "city": {
+        "id": "new-york-city_ny_us",
+        "name": "New York",
+        "code": "NYC",
+        "slug": "new-york-city-new-york-united-states",
+        "autonomous_territory": null,
+        "country": {
+          "id": "US",
+          "name": "United States",
+          "slug": "united-states",
+          "code": "US"
+        },
+        "nearby_country": null,
+        "continent": {
+          "id": "north-america",
+          "name": "North America",
+          "slug": "north-america",
+          "code": "NA"
+        },
+        "subdivision": {
+          "id": "NY_US",
+          "name": "New York",
+          "slug": "new-york-united-states",
+          "code": "NY"
+        },
+        "region": {
+          "id": "northern-america",
+          "name": "Northern America",
+          "slug": "northern-america"
+        }
+      },
+      "location": {
+        "lat": 40.777222,
+        "lon": -73.8725
+      },
+      "alternative_departure_points": [
+        {
+          "id": "SWF",
+          "distance": 110.89,
+          "duration": 5587.5
+        },
+        {
+          "id": "TTN",
+          "distance": 117.36,
+          "duration": 5810.5
+        },
+        {
+          "id": "US-NEWY-NEW0",
+          "distance": 15.14,
+          "duration": 973.4
+        },
+        {
+          "id": "ABE",
+          "distance": 154.24,
+          "duration": 7600.9
+        },
+        {
+          "id": "US-NEWY-ALLE",
+          "distance": 15.92,
+          "duration": 1144.9
+        },
+        {
+          "id": "US-NEWY-WEST",
+          "distance": 15.99,
+          "duration": 1048.2
+        },
+        {
+          "id": "PHL",
+          "distance": 182.38,
+          "duration": 8567.9
+        },
+        {
+          "id": "BDL",
+          "distance": 201.32,
+          "duration": 10247.6
+        },
+        {
+          "id": "JFK",
+          "distance": 20.81,
+          "duration": 1579
+        },
+        {
+          "id": "US-NEWY-NEWY",
+          "distance": 21.32,
+          "duration": 1302.7
+        },
+        {
+          "id": "ACY",
+          "distance": 215.45,
+          "duration": 10511.6
+        },
+        {
+          "id": "AVP",
+          "distance": 220.03,
+          "duration": 10246.7
+        },
+        {
+          "id": "US-NEWR-NYST",
+          "distance": 25.66,
+          "duration": 1590.1
+        },
+        {
+          "id": "ZRP",
+          "distance": 35.04,
+          "duration": 2002.8
+        },
+        {
+          "id": "EWR",
+          "distance": 39.14,
+          "duration": 2539.6
+        },
+        {
+          "id": "HPN",
+          "distance": 53.08,
+          "duration": 3015.2
+        },
+        {
+          "id": "ISP",
+          "distance": 85.23,
+          "duration": 4015.8
+        }
+      ],
+      "tags": [
+        {
+          "tag": "sightseeing",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "famous cities",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "activities",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "events",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "family fun",
+          "month_to": -1,
+          "month_from": -1
+        }
+      ],
+      "providers": [
+        1175,
+        1277,
+        1282,
+        1283
+      ],
+      "special": [
+        {
+          "id": "metropolitan-museum-of-art_poi",
+          "name": "Metropolitan Museum of Art",
+          "slug": "metropolitan-museum-of-art"
+        },
+        {
+          "id": "statue-of-liberty_poi",
+          "name": "Statue of Liberty",
+          "slug": "statue-of-liberty"
+        },
+        {
+          "id": "manhattan-island_poi",
+          "name": "Manhattan Island",
+          "slug": "manhattan-island"
+        },
+        {
+          "id": "staten-island_poi",
+          "name": "Staten Island",
+          "slug": "staten-island"
+        },
+        {
+          "id": "independence-national-historical-park-pa-usa_poi",
+          "name": "Independence National Historical Park, PA, USA",
+          "slug": "independence-national-historical-park"
+        },
+        {
+          "id": "empire-state-building_poi",
+          "name": "Empire State Building",
+          "slug": "empire-state-building"
+        },
+        {
+          "id": "times-square_poi",
+          "name": "Times Square",
+          "slug": "times-square"
+        }
+      ],
+      "tourist_region": [
+        {
+          "id": "outskirts-nyc_poi",
+          "name": "Outskirts-NYC",
+          "slug": "outskirts-nyc"
+        }
+      ],
+      "car_rentals": [
+        {
+          "provider_id": 1175,
+          "providers_locations": [
+            "696168",
+            "360061"
+          ]
+        }
+      ],
+      "new_ground": false,
+      "routing_priority": 0,
+      "type": "airport"
+    },
+    {
+      "id": "SWF",
+      "int_id": 5955,
+      "airport_int_id": 5955,
+      "active": true,
+      "code": "SWF",
+      "icao": "KSWF",
+      "name": "New York Stewart International Airport",
+      "slug": "stewart-international-newburgh-new-york-united-states",
+      "slug_en": "stewart-international-newburgh-new-york-united-states",
+      "alternative_names": [],
+      "rank": 169,
+      "global_rank_dst": 364,
+      "dst_popularity_score": 35030,
+      "timezone": "America/New_York",
+      "city": {
+        "id": "new-york-city_ny_us",
+        "name": "New York",
+        "code": "NYC",
+        "slug": "new-york-city-new-york-united-states",
+        "autonomous_territory": null,
+        "country": {
+          "id": "US",
+          "name": "United States",
+          "slug": "united-states",
+          "code": "US"
+        },
+        "nearby_country": null,
+        "continent": {
+          "id": "north-america",
+          "name": "North America",
+          "slug": "north-america",
+          "code": "NA"
+        },
+        "subdivision": {
+          "id": "NY_US",
+          "name": "New York",
+          "slug": "new-york-united-states",
+          "code": "NY"
+        },
+        "region": {
+          "id": "northern-america",
+          "name": "Northern America",
+          "slug": "northern-america"
+        }
+      },
+      "location": {
+        "lat": 41.504167,
+        "lon": -74.104722
+      },
+      "alternative_departure_points": [
+        {
+          "id": "LGA",
+          "distance": 107.78,
+          "duration": 5650.8
+        },
+        {
+          "id": "EWR",
+          "distance": 117.31,
+          "duration": 6121.8
+        },
+        {
+          "id": "JFK",
+          "distance": 126.3,
+          "duration": 6905.9
+        },
+        {
+          "id": "ALB",
+          "distance": 161.54,
+          "duration": 7713.3
+        },
+        {
+          "id": "AVP",
+          "distance": 161.82,
+          "duration": 7487.3
+        },
+        {
+          "id": "ABE",
+          "distance": 180.38,
+          "duration": 9528.6
+        },
+        {
+          "id": "ISP",
+          "distance": 185.27,
+          "duration": 8975.5
+        },
+        {
+          "id": "BDL",
+          "distance": 191,
+          "duration": 9435.9
+        },
+        {
+          "id": "TTN",
+          "distance": 192.74,
+          "duration": 9365.5
+        },
+        {
+          "id": "BGM",
+          "distance": 232.74,
+          "duration": 11479.8
+        },
+        {
+          "id": "US-POUG-NYST",
+          "distance": 42.44,
+          "duration": 2313.3
+        },
+        {
+          "id": "HPN",
+          "distance": 98.44,
+          "duration": 4766.8
+        }
+      ],
+      "tags": [
+        {
+          "tag": "sightseeing",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "activities",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "events",
+          "month_to": -1,
+          "month_from": -1
+        },
+        {
+          "tag": "family fun",
+          "month_to": -1,
+          "month_from": -1
+        }
+      ],
+      "providers": [
+        1175,
+        1277
+      ],
+      "special": [
+        {
+          "id": "staten-island_poi",
+          "name": "Staten Island",
+          "slug": "staten-island"
+        },
+        {
+          "id": "statue-of-liberty_poi",
+          "name": "Statue of Liberty",
+          "slug": "statue-of-liberty"
+        },
+        {
+          "id": "manhattan-island_poi",
+          "name": "Manhattan Island",
+          "slug": "manhattan-island"
+        },
+        {
+          "id": "metropolitan-museum-of-art_poi",
+          "name": "Metropolitan Museum of Art",
+          "slug": "metropolitan-museum-of-art"
+        },
+        {
+          "id": "empire-state-building_poi",
+          "name": "Empire State Building",
+          "slug": "empire-state-building"
+        },
+        {
+          "id": "times-square_poi",
+          "name": "Times Square",
+          "slug": "times-square"
+        }
+      ],
+      "tourist_region": [
+        {
+          "id": "outskirts-nyc_poi",
+          "name": "Outskirts-NYC",
+          "slug": "outskirts-nyc"
+        }
+      ],
+      "car_rentals": [
+        {
+          "provider_id": 1175,
+          "providers_locations": [
+            "366546",
+            "1250588"
+          ]
+        }
+      ],
+      "new_ground": false,
+      "routing_priority": 0,
+      "type": "airport"
+    }
+  ],
+  "meta": {
+    "locale": {
+      "code": "en-US",
+      "status": "OK"
+    }
+  },
+  "last_refresh": 1689326109,
+  "results_retrieved": 4
+}
